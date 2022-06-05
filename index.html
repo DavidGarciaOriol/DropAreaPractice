@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="drop-area">
+
+        <form class="upload-form">
+
+            <p>
+                Sube múltiples archivos con el botón de subir archivos o arrastrándolos aquí.
+            </p>
+
+            <input type="file" id="file-input" multiple accept="image/*" onchange="handleFiles(this.files)">
+
+        </form>
+
+    </div>
+
+    <div id="gallery"></div>
+
+</body>
+</html>

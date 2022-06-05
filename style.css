@@ -1,0 +1,31 @@
+#drop-area {
+    border: 2px dashed rgb(95, 118, 223);
+    border-radius: 20px;
+    width: 480px;
+    font-family: sans-serif;
+    margin: 100px auto;
+    padding: 20px;
+  }
+
+  #drop-area.highlight {
+    border-color: rgb(18, 168, 13);
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  .upload-form {
+    margin-bottom: 10px;
+  }
+
+  #gallery {
+    margin-top: 10px;
+  }
+
+  #gallery img {
+    width: 175px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
